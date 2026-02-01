@@ -18,7 +18,6 @@ The application consists of:
 
 ---
 
----
 
 ## 🛠️ Technologies Used
 
