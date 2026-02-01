@@ -1,3 +1,76 @@
+# 🎬 Content-Based Movie Recommendation System
+
+This project is a **Content-Based Movie Recommendation System** developed as a **BCA Semester V Mini Project**.  
+It recommends movies based on **content similarity** using **TF-IDF** and **Cosine Similarity**.  
+The application is built using a **full-stack approach** with frontend, backend, and a machine learning model.
+
+---
+
+## 📌 System Overview
+
+The system allows users to search for a movie by typing its name.  
+Based on the selected movie, similar movies are recommended by analyzing movie metadata such as genre, cast, crew, and plot.
+
+The application consists of:
+- A **React frontend** for user interaction
+- A **Node.js backend** for authentication and API handling
+- A **Machine Learning model** hosted using FastAPI for generating recommendations
+
+---
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js  
+- Tailwind CSS  
+
+### Backend
+- Node.js  
+- Express.js  
+- JSON Web Tokens (JWT)  
+- bcrypt  
+
+### Machine Learning
+- Python  
+- Pandas  
+- Scikit-learn (TF-IDF, Cosine Similarity)  
+
+### API & Database
+- FastAPI  
+- MongoDB  
+
+---
+
+## ✨ Features
+
+- Movie search functionality  
+- Content-based movie recommendations  
+- User authentication using JWT  
+- Secure password hashing using bcrypt  
+- Responsive UI  
+- Works without user ratings (cold-start friendly)
+
+---
+
+## 🧠 Recommendation Model
+
+- Movie textual data is cleaned and combined
+- TF-IDF is used to convert text into vectors
+- Cosine similarity is used to find similar movies
+- Top similar movies are returned as recommendations
+
+---
+
+## 🏗️ System Flow
+User
+→ React Frontend
+→ Node.js + Express Backend
+→ FastAPI (ML Model)
+→ Movie Recommendations
+
+
 Screenshots:
 <img width="1366" height="768" alt="{4549E81B-8B0E-4068-BCF1-8A9DB07F66AC}" src="https://github.com/user-attachments/assets/a23ec0b4-e6bd-4709-8cfa-dec2eede0f3f" />
 <img width="1366" height="768" alt="{6EFA5DFE-0CE2-4D49-8E61-B8862BD2AF3F}" src="https://github.com/user-attachments/assets/b6605f7f-6ee7-42a1-88be-b4c85a3c9691" />
