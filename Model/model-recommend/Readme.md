@@ -1,4 +1,4 @@
-⚠️ Model Files Notice
+ Model Files Notice!!!
 
 The trained model artifacts (similarity.pkl and vectors.pkl) are not included in this repository
 because they are very large and exceed GitHub's file size limits.
